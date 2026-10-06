@@ -4,8 +4,6 @@
  * File Name: BooleanOperators
  * Description: Practice with boolean operators
  */
-package ICS3U.src;
-
 import java.util.Scanner;
 
 public class BooleanOperators {
