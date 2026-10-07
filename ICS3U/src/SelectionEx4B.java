@@ -8,7 +8,7 @@
 import java.util.Scanner;
 
 public class SelectionEx4B {
-    public static void main (String[] args) {
+    public static <integer> void main (String[] args) {
         Scanner myScanner = new Scanner(System.in);
 
         //Question 4
@@ -25,7 +25,7 @@ public class SelectionEx4B {
 
         //Question 5
         System.out.println("Please enter your mark: ");
-        Double mark = myScanner.nextDouble();
+        double mark = myScanner.nextDouble();
         if (mark >= 75) {
             System.out.println("Great Job!");
         }
@@ -54,9 +54,9 @@ public class SelectionEx4B {
 
         //Question 7
         System.out.println("Please enter the first mark: ");
-        Double mark1 = myScanner.nextDouble();
+        double mark1 = myScanner.nextDouble();
         System.out.println("Please enter the second mark: ");
-        Double mark2 = myScanner.nextDouble();
+        double mark2 = myScanner.nextDouble();
         if (mark1 > mark2) {
             System.out.println("The higher mark is " + mark1 + ".");
         }
@@ -66,7 +66,7 @@ public class SelectionEx4B {
 
         //Question 8
         System.out.println("How many times should I print Hello World (1-5): ");
-        Integer userInput = myScanner.nextInt();
+        int userInput = myScanner.nextInt();
         if (userInput == 1) {
             System.out.println("Hello World!");
         }
