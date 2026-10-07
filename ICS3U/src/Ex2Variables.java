@@ -4,8 +4,6 @@
  * File Name: Ex2Variables
  * Description: Practice questions with input and output
  */
-package ICS3U.src;
-
 import java.util.Scanner;
 
 public class Ex2Variables {

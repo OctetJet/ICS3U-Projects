@@ -4,8 +4,6 @@
  * File Name: OutputExercises1
  * Description: Output Exercises Practice
  */
-package ICS3U.src;
-
 import java.util.Scanner;
 
 public class OutputEx1 {

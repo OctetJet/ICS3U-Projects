@@ -4,8 +4,6 @@
  * File Name: LearnScannerClass
  * Description: Practice with the scanner function
  */
-package ICS3U.src;
-
 import java.util.Scanner;
 
 public class LearnScannerClass {

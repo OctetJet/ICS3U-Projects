@@ -9,6 +9,8 @@ import java.util.Scanner;
 
 public class SelectionEx4A {
     public static void main (String[] args) {
+
+        //Question 1
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Please enter a number from 1-10: ");
         int num = myScanner.nextInt();
@@ -19,6 +21,7 @@ public class SelectionEx4A {
             System.out.println("You Lost!");
         }
 
+        //Question 2
         System.out.println("Please enter your mark: ");
         double mark = myScanner.nextDouble();
         if (mark >= 50) {
@@ -28,9 +31,9 @@ public class SelectionEx4A {
             System.out.println("You Failed!");
         }
 
+        //Question 3
         System.out.println("Please enter the temperature in °C: ");
         double tempC = myScanner.nextDouble();
-
         if (tempC <= 9){
             System.out.println("It is really cold outside.");
         }

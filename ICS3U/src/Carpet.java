@@ -4,8 +4,6 @@
  * File Name: Carpet
  * Description: Variables task
  */
-package ICS3U.src;
-
 public class Carpet {
     public static void main (String[] args) {
 
