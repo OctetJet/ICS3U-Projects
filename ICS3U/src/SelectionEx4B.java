@@ -8,7 +8,7 @@
 import java.util.Scanner;
 
 public class SelectionEx4B {
-    public static <integer> void main (String[] args) {
+    public static void main (String[] args) {
         Scanner myScanner = new Scanner(System.in);
 
         //Question 4
