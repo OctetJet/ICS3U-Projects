@@ -9,6 +9,7 @@ import java.util.Scanner;
 
 public class SelectionEx4B {
     public static void main (String[] args) {
+
         Scanner myScanner = new Scanner(System.in);
 
         //Question 4
