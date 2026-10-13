@@ -25,5 +25,17 @@ public class BooleanOperators {
         else if (tempC > 30){
             System.out.println("It is hot outside");
         }
+
+        System.out.println("Please enter your age: ");
+        int age = myScanner.nextInt();
+        if ((age >= 13) && (age <= 19)) {
+            System.out.println("This person is a teenager.");
+        }
+        else if (age < 13) {
+            System.out.println("This person is a child.");
+        }
+        else {
+            System.out.println("This person is an adult.");
+        }
     }
 }
