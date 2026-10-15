@@ -1,3 +1,10 @@
+/**
+ * Author: Lucas Wang
+ * Date: Oct 15, 2026
+ * File Name: SelectionExtraPractice
+ * Description: Extra practice questions found in the More Selection Exercises doc
+ */
+
 import java.util.Scanner;
 public class SelectionExtraPractice {
     public static void main (String[] args) {
@@ -67,6 +74,18 @@ public class SelectionExtraPractice {
         }
 
         //Question 4
-
+        System.out.println("Please enter your age: ");
+        double age = myScanner.nextDouble();
+        if (age < 0) {
+            System.out.println("Error: Human years cannot be a negative number.");
+        } else {
+            double dogYears;
+            if (age <= 2) {
+                dogYears = age * 10.5;
+            } else {
+                dogYears = (2 * 10.5) + ((age - 2) * 4);
+            }
+            System.out.println(age + " human years is equal to " + dogYears + " dog years.");
+        }
     }
 }
