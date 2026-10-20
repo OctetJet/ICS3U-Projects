@@ -3,6 +3,11 @@
  * Date: Oct 7, 2026
  * File Name: SelectionEx4B
  * Description: This is the second half of the selection practice problems.
+ * "I, Wenfeng Wang, the parent of  Lucas Wang, hereby confirm
+ * that my child has Java installed and has completed SelectionEx4_B, and has shown and explained the program to me,
+ * patiently, politely and clearly the concepts they have learnt to date in the programming unit.
+ * It is also my understanding that they will practise coding 20 minutes per night for at least 5 nights per week
+ * to complete assigned exercises and enrichment tasks."
  */
 
 import java.util.Scanner;
