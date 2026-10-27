@@ -25,7 +25,7 @@ public class WhileLoopPB {
         //Question 6
         int sum = 0;
         for (int i = 0; i < 11; i++) {
-            sum = sum +i;
+            sum = sum + i;
         }
         System.out.println(sum);
 
