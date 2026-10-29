@@ -2,7 +2,7 @@
  * Author: Lucas Wang
  * Date: Oct 20, 2026
  * File Name: EnrichmentTask
- * Description: One CCC problem to practice problem solving.
+ * Description: One CCC problem to practice problem-solving.
  */
 
 import java.util.Scanner;
