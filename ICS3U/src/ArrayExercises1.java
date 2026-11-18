@@ -158,6 +158,7 @@ public class ArrayExercises1 {
             }
         }
         System.out.println(Arrays.toString(negativeNums2));
+
         // Question 6
         int maxValues = 10;
         String[] lastNames2 = new String[maxValues];
@@ -187,7 +188,7 @@ public class ArrayExercises1 {
         }
         double sum = 0;
         for (int i = 0; i < count5; i++) {
-            sum =+ marks2[i];
+            sum += marks2[i];
         }
         double average = sum / marks2.length;
         System.out.println("The class average is: " + average);
